@@ -9,23 +9,14 @@ using the Vanilo framework. It also contains Vanilo's admin panel.
 
 ## Installation
 
-**1. Get the app**:
-
-Either download and decompress [the zipball](https://github.com/vanilophp/demo/archive/master.zip)
-or use git:
-
-```bash
-git clone https://github.com/vanilophp/demo.git
-```
-
-**2. Install Dependencies**:
+**1. Install Dependencies**:
 
 ```bash
 cd demo/
 composer install
 ```
 
-**3. Configure the environment**:
+**2. Configure the environment**:
 
 > The `.env` file is in the app's [root directory](https://laravel.com/docs/5.7/configuration#environment-configuration).
 
@@ -33,14 +24,14 @@ composer install
 - Initialize .env (quickly: `cp .env.example .env && php artisan key:generate`.
 - add the DB credentials to the `.env` file.
 
-**4. Install Database**:
+**3. Install Database**:
 
 Run these commands in your terminal:
 
 ```bash
 php artisan migrate --seed
 ```
-**5. Create the first admin user**:
+**4. Create the first admin user**:
 
 Run this command:
 
@@ -49,7 +40,7 @@ php artisan appshell:super
 ```
 Enter your email, name, password, **accept _admin_ as role**.
 
-**6. Open the application**:
+**5. Open the application**:
 
 Run the site with `php artisan serve` and access the site:
 
