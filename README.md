@@ -1,4 +1,4 @@
-# Project E-Commerce using Vanilo and Laravel
+# E-Commerce Project using Vanilo and Laravel
 
 ![v1.1](https://img.shields.io/badge/version-1.1-green.svg?style=flat-square)
 
